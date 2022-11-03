@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./images/favicon-32x32.png">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+  <link rel="stylesheet" href="./stile.css">
+  <title>Frontend Mentor | Intro component with sign up form</title>
+
+  <!-- Feel free to remove these styles or customise in your own stylesheet 👍 -->
+  <style>
+    .attribution { font-size: 11px; text-align: center; }
+    .attribution a { color: hsl(228, 45%, 44%); }
+  </style>
+</head>
+<body>
+<div>
+  <main>
+    <section class="container-description">
+      <div class="container-text"> 
+        <h1>
+          Learn to code by watching others
+        </h1>
+        <p>
+          See how experienced developers solve 
+          problems in real-time. Watching 
+          <br> scripted tutorials is great, 
+          but understanding how developers think is invaluable. 
+        </p>
+      </div>
+    </section>
+    <section class="container-form">      
+      <button class="button-free-day">
+        Try it free 7 days <a href="#">
+        then <br> $20/mo. thereafter
+        </a> 
+      </button>
+      
+      <div class="container-one">
+        <form action="" id="form">
+          <div class="container-input">
+            <input class="firstName" type="text" placeholder="First Name" name="First name canoot be empty">  
+            <span class="paragraph" id="error"></span>
+            <!-- 
+
+              <img class="error-icon inactive" id="icon-error" src="./images/icon-error.svg" alt="" srcset="">
+              <img class="check-icon inactive" id="check" src="./images/unknown.png" alt="" srcset="">
+            -->
+          </div>
+          <div class="container-input">
+            <input class="lastName" type="text" placeholder="Last Name" name="Last Name canoot be empty"> 
+            <span class="paragraph" id="error"></span>
+            <!--
+
+              <img class="error-icon inactive" id="icon-error" src="./images/icon-error.svg" alt="" srcset="">
+              <img class="check-icon inactive" id="check" src="./images/unknown.png" alt="" srcset="">
+            -->
+          </div>
+          <div class="container-input">
+            <input class="emailAddress" type="email" placeholder="Email Address" name="Looks like thi is not an email"> 
+            <span class="paragraph inactive" id="email-span"></span>
+            <span class="alert" id="alert"></span>
+           <!-- <img class="error-icon inactive" id="icon-error" src="./images/icon-error.svg" alt="" srcset=""> -->
+           <!-- 
+             <img class="check-icon inactive" id="check" src="./images/unknown.png" alt="" srcset="">
+           -->
+
+          </div>
+          <div class="container-input">
+            <input class="password" type="password" placeholder="Password" name="Password cannot be empty">
+            <span class="paragraph" id="error"></span>
+            <!-- 
+
+              <img class="error-icon inactive" id="icon-error" src="./images/icon-error.svg" alt="" srcset="">
+              <img class="check-icon inactive" id="check" src="./images/unknown.png" alt="" srcset="">
+            -->
+          </div>
+          
+          <button class="button-major">
+            CLAIM YOUR FREE TRIAL
+          </button>
+        </form>
+        <div class="text-services">
+
+          <p >
+          By clicking the button, you are agreeing to our <a href="#">
+              Terms and Services
+            </a>   
+          </p>
+        </div>
+      </div>
+      
+    </section>
+    </main>
+  </div>
+  <footer>
+    <p class="attribution">
+      Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+      Coded by <a href="https://www.instagram.com/joya_michael/?hl=es-la">Joya_Michael</a>.
+    </p>
+  </footer>
+  <script src="./index.js"></script>
+</body>
+</html>
